@@ -1,0 +1,38 @@
+name: CI/CD Workflow
+
+on:
+  push:
+    branches: [ develop, HML, main ]
+  pull_request:
+    branches: [ develop, HML ]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+    - name: Install dependencies
+      run: npm install
+    - name: Run tests
+      run: npm test
+    - name: Build
+      run: npm run build
+      if: github.ref == 'refs/heads/main' || github.ref == 'refs/heads/HML'
+
+  deploy:
+    needs: build-and-test
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'
+    steps:
+    - name: Deploy to Production
+      run: echo "Deploying to production"
+      # Adicione aqui seus comandos de deploy para produção
+
+    - name: Deploy to Staging
+      if: github.ref == 'refs/heads/HML'
+      run: echo "Deploying to staging"
+      # Adicione aqui seus comandos de deploy para staging
