@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest --verbose --runInBand",
+    "teste": "jest --passWithNoTests --noStackTrace --runInBand --detectOpenHandles"
+  },
   "dependencies": {
     "bcrypt": "^5.1.1",
     "class-transformer": "^0.5.1",
