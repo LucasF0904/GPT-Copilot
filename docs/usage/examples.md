@@ -16,7 +16,6 @@ The API will respond with a `201 Created` status code and the following payload:
 
 ```json
 jsonCopy code{
-  "id": 1,
   "name": "John Doe",
   "email": "johndoe@example.com"
 }
@@ -24,13 +23,12 @@ jsonCopy code{
 
 **Get User Details**
 
-To get the details of a specific user, make a GET request to the `/api/users/:id` endpoint, where `:id` is the ID of the user you want to retrieve.
+To get the details of a specific user, make a GET request to the `/api/users/:username` endpoint, where `:username` is the username of the user you want to retrieve.
 
 The API will respond with a `200 OK` status code and the following payload:
 
 ```json
 jsonCopy code{
-  "id": 1,
   "name": "John Doe",
   "email": "johndoe@example.com",
   "createdAt": "2023-04-29T08:32:11.340Z",
@@ -40,7 +38,7 @@ jsonCopy code{
 
 **Update User Details**
 
-To update the details of a specific user, make a PUT request to the `/api/users/:id` endpoint, where `:id` is the ID of the user you want to update, with the following payload:
+To update the details of a specific user, make a PUT request to the `/api/users/:username` endpoint, where `:username` is the username of the user you want to update, with the following payload:
 
 ```json
 jsonCopy code{
@@ -53,7 +51,6 @@ The API will respond with a `200 OK` status code and the updated user details:
 
 ```json
 jsonCopy code{
-  "id": 1,
   "name": "Jane Doe",
   "email": "janedoe@example.com",
   "createdAt": "2023-04-29T08:32:11.340Z",
@@ -63,7 +60,7 @@ jsonCopy code{
 
 **Delete a User**
 
-To delete a specific user, make a DELETE request to the `/api/users/:id` endpoint, where `:id` is the ID of the user you want to delete.
+To delete a specific user, make a DELETE request to the `/api/users/:username` endpoint, where `:username` is the username of the user you want to delete.
 
 The API will respond with a `204 No Content` status code
 

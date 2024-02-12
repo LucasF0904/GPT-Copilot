@@ -40,26 +40,24 @@ GPT Copilot will be developed using the following technologies:
 
 ✴️ Node.js and Typescript for backend development;
 ✴️ SQLite as a database management system;
-✴️ Docker for creating containers for the application;
 ✴️ Redis as an in-memory database for caching information;
 ✴️ Electron for building the web interface;
 ✴️ AWS for storing images and hosting the application.
+
 <div>
 <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="node.js"/>
 <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" alt="Typescript"/>
-<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-plain.svg" alt="PostgresSQL"/>
-<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-plain.svg" alt="Docker"/>
+<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg" alt="SQLite"/>
 <img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-plain.svg" alt="Redis"/>
-<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
-<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original.svg" alt="AWS"/>
+<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS"/>
+<img height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/electron/electron-original.svg" alt="Electron"/>
 </div>
-### Contact
 
+### Contact
 * Email: [lucas.faria1@gmail.com](mailto:lucas.faria1@gmail.com)
 * Phone: +55 (31) 9958-1750
 
 ### License
-
 GPT-Copilot is released under the MIT License. See LICENSE file for details.
 
 

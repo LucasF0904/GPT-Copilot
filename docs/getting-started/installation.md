@@ -13,7 +13,7 @@ Before installing Faith Point, please make sure you have the following software 
 1.  Clone the repository to your local machine:
 
     ```bash
-    bashCopy codegit clone https://github.com/lucasfaria/Faith Point.git
+    bashCopy codegit clone https://github.com/LucasF0904/GPT-Copilot
     ```
 2.  Navigate to the project directory:
 

@@ -8,8 +8,8 @@ The database service can be configured through the following environment variabl
 
 * `DB_HOST`: The hostname of the database server. Defaults to `localhost`.
 * `DB_PORT`: The port number of the database server. Defaults to `5432`.
-* `DB_NAME`: The name of the database. Defaults to `Faith Point`.
-* `DB_USER`: The username used to authenticate with the database server. Defaults to `Faith Point`.
+* `DB_NAME`: The name of the database. Defaults to `GPTCopilot`.
+* `DB_USER`: The username used to authenticate with the database server. Defaults to `GPTCopilot`.
 * `DB_PASSWORD`: The password used to authenticate with the database server. Defaults to `password`.
 
 You can modify these variables by editing the `.env` file located in the `backend` folder.

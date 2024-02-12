@@ -1,6 +1,6 @@
 # Api Reference
 
-The following is the API reference for Faith Point:
+The following is the API reference for GPT Copilot:
 
 ### Authentication
 
@@ -47,21 +47,20 @@ jsonCopy code[
 ]
 ```
 
-#### `/users/:id` (GET)
+#### `/users/:username` (GET)
 
-Retrieve a single user by ID.
+Retrieve a single user by username.
 
 **Parameters:**
 
 | Name | Type     | Description                     |
 | ---- | -------- | ------------------------------- |
-| `id` | `string` | The ID of the user to retrieve. |
+| `username` | `string` | The username of the user to retrieve. |
 
 **Response:**
 
 ```json
-jsonCopy code{
-  "id": "1",
+jsonCopy code{  
   "username": "johndoe",
   "email": "johndoe@example.com"
 }
@@ -89,15 +88,14 @@ jsonCopy code{
 }
 ```
 
-#### `/users/:id` (PUT)
+#### `/users/:username` (PUT)
 
-Update an existing user by ID.
+Update an existing user by username.
 
 **Parameters:**
 
 | Name       | Type     | Description                         |
 | ---------- | -------- | ----------------------------------- |
-| `id`       | `string` | The ID of the user to update.       |
 | `username` | `string` | The new username for the user.      |
 | `email`    | `string` | The new email address for the user. |
 | `password` | `string` | The new password for the user.      |
@@ -106,21 +104,20 @@ Update an existing user by ID.
 
 ```json
 jsonCopy code{
-  "id": "1",
   "username": "johndoe",
   "email": "johndoe@example.com"
 }
 ```
 
-#### `/users/:id` (DELETE)
+#### `/users/:username` (DELETE)
 
-Delete an existing user by ID.
+Delete an existing user by username.
 
 **Parameters:**
 
 | Name | Type     | Description                   |
 | ---- | -------- | ----------------------------- |
-| `id` | `string` | The ID of the user to delete. |
+| `username` | `string` | The ID of the user to delete. |
 
 **Response:**
 
