@@ -78,5 +78,9 @@ The API should now be running at [http://localhost:8080](http://localhost:8080/)
 
 if you want to revert the migration, run `yarn typeorm migration:revert`
 
+if don`t work try this:
+
+`npx ts-node -r tsconfig-paths/register ./node_modules/typeorm/cli.js migration:create src/shared/database/typeorm/migrations/NameMigration`
+
 
 ### After create module in src/modules with table name
