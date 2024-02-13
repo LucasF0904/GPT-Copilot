@@ -1,4 +1,4 @@
-import { MigrationInterface, QueryRunner, TableIndex } from 'typeorm';
+import { MigrationInterface, QueryRunner, Table, TableIndex } from 'typeorm';
 import { RESPONSE, IDX_RESPONSE_RESPONSE_ID, IDX_RESPONSE_QUERY_ID  } from '@shared/database/typeorm/migrations/options/TableResponse';
 
 export class CreateResponse1707784193824 implements MigrationInterface {

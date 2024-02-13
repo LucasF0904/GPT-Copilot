@@ -1,6 +1,6 @@
 {
     "type": "sqlite",
-    "database": "./src/database/db.sqlite",
+    "database": "./src/shared/database/db.sqlite",
     "entities": [
       "./src/modules/**/infra/typeorm/entities/*.ts",
       "./src/modules/shared/**/infra/typeorm/entities/*.ts"

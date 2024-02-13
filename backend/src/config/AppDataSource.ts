@@ -3,7 +3,7 @@ import { DataSource } from 'typeorm';
 
 export const AppDataSource = new DataSource({
     type: 'sqlite',
-    database: process.env.DATABASE_PATH || './src/database/db.sqlite',
+    database: process.env.DATABASE_PATH || './src/shared/database/db.sqlite',
     entities: [
         "./src/modules/**/infra/typeorm/entities/*.ts",
         "./src/modules/shared/**/infra/typeorm/entities/*.ts"

@@ -1,4 +1,4 @@
-import { MigrationInterface, QueryRunner, TableIndex } from 'typeorm';
+import { MigrationInterface, QueryRunner, Table, TableIndex } from 'typeorm';
 import { QUERY, IDX_QUERY_QUERY_ID, IDX_QUERY_SESSION_ID } from '@shared/database/typeorm/migrations/options/TableQuery';
 
 export class CreateQuery1707784201988 implements MigrationInterface {

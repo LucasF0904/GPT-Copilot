@@ -1,4 +1,4 @@
-import { MigrationInterface, QueryRunner, TableIndex } from 'typeorm';
+import { MigrationInterface, QueryRunner, Table, TableIndex } from 'typeorm';
 import { SESSION, IDX_SESSION_USER_ID, IDX_SESSION_SESSION_ID } from '@shared/database/typeorm/migrations/options/TableSession';
 
 export class CreateSession1707784177391 implements MigrationInterface {
