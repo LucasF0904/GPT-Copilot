@@ -8,6 +8,12 @@
     "migrations": [
       "./src/shared/database/typeorm/migrations/*.ts"
     ],
+    "seeds": [
+      "src/shared/database/typeorm/seeding/seeds/*.ts"
+    ],
+    "factories": [
+      "src/shared/database/typeorm/seeding/factories/*.ts"
+    ],
     "cli": {
       "migrationsDir": "./src/shared/database/typeorm/migrations"
     }
